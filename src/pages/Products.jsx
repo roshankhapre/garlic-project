@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import garlicImage from "../assets/fresh-raw-garlic-ready-cook.webp";
+import garlicImage from "../assets/without_peel_garlic_in_a_bowl_spilled.jpeg";
 import garlicImage1 from "../assets/garlic-oil-treatment.webp";
 import garlicpowderImg from "../assets/garlic_powder_inside_the_bowl_and_outside.webp";
 import dehydretedimg from "../assets/dehydreted-garlic.jpg";

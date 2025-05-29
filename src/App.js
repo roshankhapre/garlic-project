@@ -5,14 +5,14 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 const App = () => {
   return (
     <Router>
       <Navbar />
+      <FloatingWhatsApp />
       <div className="pt-20">
-        {" "}
-        {/* spacing to offset fixed navbar */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

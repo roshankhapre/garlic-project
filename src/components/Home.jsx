@@ -159,6 +159,50 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="py-20 px-6 max-w-7xl mx-auto text-center">
+        <h2 className="text-4xl font-bold text-green-700 mb-12">
+          Meet Our Leaders
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {/* Team Member: Kiran */}
+          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h4 className="text-xl font-semibold text-gray-800">
+              Kiran Rajole
+            </h4>
+            <p className="text-green-600 font-medium">Founder</p>
+            <p className="text-sm text-gray-600 mt-2">
+              A visionary rooted in agriculture, she turned her dream of
+              hygienic, high-quality garlic into a thriving business.
+            </p>
+          </div>
+
+          {/* Team Member: Keshav */}
+          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h4 className="text-xl font-semibold text-gray-800">
+              Keshav Kalmodiya
+            </h4>
+            <p className="text-green-600 font-medium">Co-Founder & CEO</p>
+            <p className="text-sm text-gray-600 mt-2">
+              The brain behind automation and scale—bringing innovation,
+              efficiency, and market expansion to the core of our operations.
+            </p>
+          </div>
+
+          {/* Team Member: Kunal */}
+          <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h4 className="text-xl font-semibold text-gray-800">
+              Kunal Kalmodiya
+            </h4>
+            <p className="text-green-600 font-medium">General Manager</p>
+            <p className="text-sm text-gray-600 mt-2">
+              The engine of day-to-day operations—overseeing production,
+              quality, logistics, and ensuring every order is perfectly
+              delivered.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="bg-green-700 text-white py-20 text-center px-6 wow animate__animated animate__fadeIn">
         <h2 className="text-3xl font-bold mb-4 wow animate__animated animate__fadeInDown">

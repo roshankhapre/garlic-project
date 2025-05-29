@@ -1,26 +1,26 @@
 import React, { useEffect } from "react";
 import garlicImage from "../assets/fresh-raw-garlic-ready-cook.webp";
 import garlicImage1 from "../assets/garlic-oil-treatment.webp";
-import garlicImage2 from "../assets/top-view-spicy-garlic-cloves.webp";
-
+import garlicpowderImg from "../assets/garlic_powder_inside_the_bowl_and_outside.webp";
+import dehydretedimg from "../assets/dehydreted-garlic.jpg";
 const products = [
   {
     name: "Peeled Garlic Cloves",
     description: "Vacuum packed, no preservatives.",
     image: garlicImage,
-    sizes: "50g, 100g, 500g, 1kg",
+    sizes: "1kg, 10kg, custom",
   },
   {
     name: "Garlic Powder",
     description: "Fine, clump-free, 100% pure.",
-    image: garlicImage1,
-    sizes: "50g, 100g, 500g, 1kg",
+    image: garlicpowderImg,
+    sizes: "1kg, 10kg, custom",
   },
   {
     name: "Dehydrated Garlic Flakes",
     description: "Hot-air dried, crisp and flavorful.",
-    image: garlicImage2,
-    sizes: "50g, 100g, 500g, 1kg",
+    image: dehydretedimg,
+    sizes: "1kg, 10kg, custom",
   },
 ];
 
